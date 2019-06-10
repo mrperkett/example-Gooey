@@ -1,6 +1,8 @@
-An example of using [`Gooey`](https://github.com/chriskiehl/Gooey) to generate a simple GUI frontend that requires only two additional lines of code.  You can find more examples here:
+An example of using [`Gooey`](https://github.com/chriskiehl/Gooey) to generate a simple GUI frontend for a command line application using only two additional lines of code.  This is possible for scripts using the `argparse` module and only requires decorating `main` with `@Gooey` (and importing gooey).  Another example script uses the `GooeyParser` to take advantage of widgets for file/directory/date selection.  You can find more examples here:
 
 https://github.com/chriskiehl/GooeyExamples
+
+These examples provide a mock interface to an application that sends scheduled emails to coworkers.
 
 # Installing
 Follow instructions on the Gooey GitHub page.
